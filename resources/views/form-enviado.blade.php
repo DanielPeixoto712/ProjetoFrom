@@ -6,7 +6,7 @@ Formulário submetido
 Informação enviada através de form
 @endsection
 @section('conteudo')
-<li>Nome: </li>{{$nome}}<br>
-<li>Morada: </li>{{$morada}}<br>
-<li>Automoveis: </li>
+<u>Nome: </u>{{$nome}}<br>
+<u>Morada: </u>{{$morada}}<br>
+<u>Automoveis: </u>
 {{$automovel}}@endsection
